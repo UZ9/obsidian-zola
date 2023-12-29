@@ -91,7 +91,7 @@ The [example site](https://peteryuen.netlify.app/) shows the capabilities of `ob
 - Install zola from the instuctions on the site `https://www.getzola.org/documentation/getting-started/installation/`
 - Run the following commands to install other needed dependencies `sudo apt install python-is-python3 python3-pip` and `pip3 install python-slugify rtoml` (or use `conda` / `mamba`)
 - Use `git clone https://github.com/ppeetteerrs/obsidian-zola` to clone the repo to somewhere other than inside the Obsidian vault folder
-- Set the path to the Obsisian vault using a `.vault_path` file or the `$VAULT` environment variable
+- Set the path to the Obsidian vault using a `.vault_path` file or the `$VAULT` environment variable
 - use `./local-run.sh` to run the site
 
 # Features 
