@@ -370,6 +370,7 @@ class Settings:
     @classmethod
     def sub_file(cls, path: Path):
         """Substitutes variable placeholders in a file."""
+        print(path)
         content = "".join([cls.sub_line(line) for line in open(path, "r").readlines()])
         open(path, "w").write(content)
 
